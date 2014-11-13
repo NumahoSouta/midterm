@@ -1,4 +1,10 @@
 var leapYear = function(a){
+ if(Number.isInteger(a) == false){
+   return false;
+  }
+
+
+
   if(a == 0){
     return false;
   }
@@ -17,12 +23,12 @@ var leapYear = function(a){
     return true;
   }
 
-  if(a == 0){
-    return false;
-  }
+
   if(a < 0){
     return false;
   }
+
+
 
 
 }
